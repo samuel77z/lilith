@@ -1,0 +1,34 @@
+body {
+    background: beige;
+}
+
+div {
+    border: thin dotted red;
+}
+
+div#login{
+    padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 15rem; */
+    max-width: 25rem;
+    background: cornsilk;
+    box-shadow: 0 0 10px 5px lightyellow;
+}
+div#login fieldset input {
+    margin: 3px;
+    width: 100%;
+}
+div#login a {
+    display: block;
+    text-align: center;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+
+.loginHint {
+    color: red;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+}
